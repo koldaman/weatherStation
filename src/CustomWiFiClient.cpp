@@ -50,8 +50,8 @@ void CustomWiFiClient::sendData(float temp, float hum) {
      return;
    }
 
-   // knstrukce url
-   // priklad: https://script.google.com/macros/s/AKfycbyALzdR-jK6G6WRplkXtwo1izdghNAfYHcPCzYTyrC3j1W5MmZR/exec?teplota=23.2'&'vlhkost=51.8
+   // konstrukce url
+   // priklad: https://script.google.com/macros/s/XXxxXX/exec?teplota=23.2'&'vlhkost=51.8
    String url = "/macros/s/";
    url += _googleScriptMacroId;
    url += "/exec";
